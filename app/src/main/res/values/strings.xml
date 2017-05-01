@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stock Hawk</string>
+
+    <!-- SharedPreferences stocks key strings -->
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+    <!-- SharedPreferences display mode(currency or percentage) key strings -->
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <!-- SharedPreferences display mode values strings -->
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <!-- Default list of stock symbols -->
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+
+    <!-- Dialog fragment strings -->
+    <string name="dialog_fragment_name">StockDialogFragment</string>
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+    <string name="dialog_text_limit">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!-- Error messages strings -->
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+    <string name="error_loading_data">Loading Stock Data&#8230;</string>
+
+    <!-- Toast message strings -->
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="toast_invalid_symbol">&#160;is not a valid symbol, try another.</string>
+
+    <!-- Stock history chart strings -->
+    <string name="chart_description">History</string>
+    <string name="chart_legend_data_description">Closing Price</string>
+
+    <!-- Content description strings -->
+    <string name="content_description_symbol">This is the stock symbol</string>
+    <string name="content_description_price">This is the stock price</string>
+    <string name="content_description_change_currency">This is the change in price of the stock</string>
+    <string name="content_description_change_percent">This is the change in percent of the stock</string>
+    <string name="content_description_fab">This button adds stock symbols, if valid</string>
+
+    <!-- Empty list view string -->
+    <string name="empty_view_text">No stocks added</string>
+
+    <!-- Widget strings -->
+    <string name="widget_stock_dollar_sign">$</string>
+
+</resources>
