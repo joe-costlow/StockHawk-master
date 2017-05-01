@@ -9,3 +9,7 @@ If you're a Nanodegree student check your work againt the project [rubric](https
 # Contrubuting
 
 Pull requests gratefully accepted.
+
+# UPDATE
+
+This project includes the starter code, but also changes. A line chart is now shown when a list item, stock, is clicked. Changes also include basic input control to letters only and validation of stock symbol input.
